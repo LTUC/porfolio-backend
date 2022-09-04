@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "portfolio-generator-backend"
+version = "0.1.0"
+description = ""
+authors = ["Eng-Ahmad-Almohammad <almohammedahmed2@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1"
+gunicorn = "^20.1.0"
+whitenoise = "^6.2.0"
+django-environ = "^0.9.0"
+psycopg2-binary = "^2.9.3"
+django-cors-headers = "^3.13.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.8.0"
+isort = "^5.10.1"
+flake8-django = "^1.1.5"
+wemake-python-styleguide = "^0.16.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
