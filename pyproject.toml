@@ -12,6 +12,8 @@ whitenoise = "^6.2.0"
 django-environ = "^0.9.0"
 psycopg2-binary = "^2.9.3"
 django-cors-headers = "^3.13.0"
+djangorestframework = "^3.13.1"
+djangorestframework-simplejwt = "^5.2.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.8.0"
